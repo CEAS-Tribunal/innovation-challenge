@@ -174,25 +174,6 @@ form label {
   margin: 8px auto 0;
 }
 
-form input[type="text"]:focus,
-form input[type="number"]:focus,
-form input[type="email"]:focus,
-form input[type="time"]:focus,
-form input[type="file"]:focus {
-  border-bottom: 2px solid #8f8f8f;
-}
-
-form input[type="button"]:hover {
-  background-color: #fff;
-  color: #e00122;
-  border: 2px solid #e00122;
-  cursor: pointer;
-}
-
-form input[type="file"] {
-  visibility: hidden;
-  position: absolute;
-}
 
 /* @media screen and (max-width: 600px) {
   form p {
@@ -200,91 +181,6 @@ form input[type="file"] {
   }
 } */
 
-.radio-button {
-  margin: 10px 0;
-  position: relative;
-  border: 2px solid #ccc;
-  border-radius: 6px;
-}
-
-.radio-button label {
-  padding: 12px 30px;
-  display: block;
-  text-align: left;
-  color: #3c454c;
-  cursor: pointer;
-  overflow: hidden;
-  margin: 0;
-  font-size: 15px;
-}
-
-.radio-button label:after {
-  width: 25px;
-  height: 25px;
-  content: "";
-  border: 2px solid #ccc;
-  border-radius: 50%;
-  position: absolute;
-  right: 30px;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-  transform: translateY(-50%);
-  cursor: pointer;
-  transition: all 200ms ease-in;
-}
-
-.radio-button input:checked ~ label:after {
-  background-color: #e00122;
-}
-
-.radio-button input {
-  width: 32px;
-  height: 32px;
-  order: 1;
-  z-index: 2;
-  position: absolute;
-  right: 30px;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-  transform: translateY(-50%);
-  cursor: pointer;
-  visibility: hidden;
-}
-
-.radio-group {
-  padding: 0 16px;
-  width: 90%;
-  margin: 20px auto;
-  line-height: 20px;
-}
-
-.reserved-ticket {
-  display: none;
-}
-
-.reserved-ticket .reserved-box {
-  border-radius: 5px;
-  padding: 20px;
-  max-width: 960px;
-  margin: 40px auto;
-  box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 8px 0px;
-  background: #fff;
-  position: relative;
-}
-
-.reserved-ticket .reserved-box p {
-  color: #000;
-  width: 90%;
-  padding: 12px 0px 0px;
-  margin: 0 auto 4px;
-  text-align: center;
-}
-
-.reserved-ticket .reserved-box .success-emoji {
-  font-size: 80px;
-  text-align: center;
-  padding: 0;
-}
 
 footer {
   background: #3f3f3f;
